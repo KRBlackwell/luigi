@@ -16,7 +16,7 @@ EDIT_PATH = os.path.join(EDITDATAPATH)
 LOG_PATH = os.path.join(LOGDATAPATH)
 TARGET_LOG_PATH = os.path.join(LOGDATAPATH,'targets')
 
-def load_config(config_file='program_listing.json'):
+def load_config(config_file='luigi_sas_example.json'):
     with open(config_file, 'r') as f:
         return json.load(f)
 
